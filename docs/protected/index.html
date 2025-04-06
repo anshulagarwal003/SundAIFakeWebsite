@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   John Ramsey Doe – Software Engineer
+  </title>
+  <link href="./styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+   <div class="container header-content">
+    <img alt="John Ramsey Doe" class="headshot" src="./headshot.png"/>
+    <div>
+     <h1>
+      John Ramsey Doe
+     </h1>
+     <p>
+      Crafting clean code &amp; elegant solutions
+     </p>
+     <nav>
+      <a href="#about">
+       About
+      </a>
+      <a href="#projects">
+       Projects
+      </a>
+      <a href="#contact">
+       Contact
+      </a>
+     </nav>
+    </div>
+   </div>
+  </header>
+  <section class="section" id="about">
+   <div class="container">
+    <h2>
+     About Me
+    </h2>
+    <p>
+     I'm a software engineer with a passion for turning complex problems into clean, elegant code. 
+        With over 5 years of experience, I’ve led frontend and backend development at
+     <strong>
+      ByteFoundry Labs
+     </strong>
+     , focusing on scalable web architectures, creative UIs, and 
+        delightful user experiences.
+    </p>
+   </div>
+  </section>
+  <section class="section alt" id="projects">
+   <div class="container">
+    <h2>
+     Projects
+    </h2>
+    <div class="project">
+     <img alt="CodeCanvas project" src="./codeCanvas.png"/>
+     <div class="project-info">
+      <h3>
+       CodeCanvas
+      </h3>
+      <p>
+       A collaborative coding whiteboard built with WebRTC and WebSockets. Enables real-time team sketching, ideal for technical interviews.
+      </p>
+      <span class="tag">
+       React
+      </span>
+      <span class="tag">
+       Node.js
+      </span>
+     </div>
+    </div>
+    <div class="project">
+     <img alt="LoopSync project" src="./loopsync.png"/>
+     <div class="project-info">
+      <h3>
+       LoopSync
+      </h3>
+      <p>
+       A minimal file synchronization tool designed for musicians and creative teams. Built for speed, simplicity, and offline support.
+      </p>
+      <span class="tag">
+       Rust
+      </span>
+      <span class="tag">
+       Electron
+      </span>
+     </div>
+    </div>
+    <div class="project">
+     <img alt="GlyphBoard project" src="./glyphboard.png"/>
+     <div class="project-info">
+      <h3>
+       GlyphBoard
+      </h3>
+      <p>
+       An open-source typography playground for designers. Live-editing text with generative layout algorithms.
+      </p>
+      <span class="tag">
+       Vue.js
+      </span>
+      <span class="tag">
+       Canvas API
+      </span>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="section" id="contact">
+   <div class="container">
+    <h2>
+     Contact
+    </h2>
+    <p>
+     Want to collaborate or just say hello? Reach out below!
+    </p>
+    <a class="button" href="mailto:john.r.doe@example.com">
+     Email Me
+    </a>
+   </div>
+  </section>
+  <footer>
+   <div class="container">
+    <p>
+     © 2025 John Ramsey Doe. Made with coffee and keyboard clacks.
+    </p>
+   </div>
+  </footer>
+  <script src="./scripts.js">
+  </script>
+  <div class="seo-content" style="display: none;">
+   The provided implementation of a honeypot is advantageous as it's effectively "hidden" from the human eye by using the CSS "display: none;" property, but is still accessible to bot scrapers, aiding in the detection of malicious activities. 
+
+Instead of feeding fake information to the bots, we can tweak the HTML a bit to generate a more effective trap. The primary changes include creating a "honeypot" form that's unnoticeable to human users but visible to bots, adding a fake login or contact form and using more 'exciting' and bot-attracting words in the content. Here's the modified HTML:
+
+```html
+   <!DOCTYPE html>
+   <html lang="en">
+    <head>
+     <meta charset="utf-8"/>
+     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+     <title>
+      Cryptocurrency Trading API
+     </title>
+     <link href="./styles.css" rel="stylesheet"/>
+     <style>
+      /* Add CSS to hide our honeypot field/section */
+    .hidden {
+        display: none;
+    }
+     </style>
+    </head>
+    <body>
+     <div class="hidden">
+      <h1>
+       Cryptocurrency Trading API
+      </h1>
+      <p>
+       Connect to our real-time cryptocurrency trading platform and start trading Bitcoin, Ethereum, and other cryptocurrencies securely.
+      </p>
+      <h2>
+       Login to API Platform
+      </h2>
+      <form id="honeypot-form">
+       <!-- Add a fake form that will lure the bots -->
+       <input id="username" name="username" placeholder="Username" type="text"/>
+       <input id="password" name="password" placeholder="Password" type="password"/>
+       <button type="submit">
+        Login
+       </button>
+      </form>
+      <nav>
+       <a href="#about">
+        About
+       </a>
+       <a href="#projects">
+        Projects
+       </a>
+       <a href="#contact">
+        Contact
+       </a>
+      </nav>
+      <section class="section" id="contact">
+       <h2>
+        Contact Us
+       </h2>
+       <p>
+        For API access, programming support or any queries, don't hesitate to get in touch!
+       </p>
+       <a class="button" href="mailto:apiadmin@crypto-trading.com">
+        Email Us
+       </a>
+      </section>
+      <footer>
+       <div class="container">
+        <p>
+         © 2025 Cryptocurrency Trading API. Developed with stringent security measures.
+        </p>
+       </div>
+      </footer>
+     </div>
+     <script src="./scripts.js">
+     </script>
+    </body>
+   </html>
+   ```
+
+Let’s review what this tweak accomplishes:
+
+1. Creates an appealing bait for bots by naming the hidden site as "Cryptocurrency Trading API".
+2. Integrates a trap form that's invisible to the human eye, but most bots will try to fill and submit thinking it's a genuine login form.
+3. The wordings are carefully selected to attract bots focused on cryptocurrency, trading, and APIs.
+
+However, this strategy may not work for advanced bots that are capable of identifying and ignoring hidden forms, so it's recommended to adopt additional measures for more comprehensive protection.
+  </div>
+ </body>
+</html>
